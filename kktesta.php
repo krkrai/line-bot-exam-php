@@ -15,10 +15,10 @@
     $message = $arrayJson['events'][0]['message']['text'];
 
 #ตัวอย่าง Message Type "Text"
-    if($message == "สวัสดี"){
+    if($message == "สวัสดี" || $message == "สวัสดีค่ะ" || $message == "สวัสดีครับ"){
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['type'] = "text";
-        $arrayPostData['messages'][0]['text'] = "สวัสดีจ้าาา";
+        $arrayPostData['messages'][0]['text'] = "สวัสดีเจ้าาา";
         replyMsg($arrayHeader,$arrayPostData);
     }
     #ตัวอย่าง Message Type "Sticker"
