@@ -1,6 +1,6 @@
 <?php
-    require "vendor/autoload.php";
-    require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
+    //require "vendor/autoload.php";
+    //require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
     $accessToken = "BLRFa5/hYvOdww7fILm06bdNmPA76Wo0U/waHGbIR5dAKCeyc/Gyqz1T97hE1x0oYztMEHHLCEy0wbjy743aCaWr7bnx9N2Hlq19SaMeEkp8Junzfc9Ar9u6FJUxfhvUWfPg7z+eTtlIjccDwU7p8gdB04t89/1O/w1cDnyilFU=";//copy Channel access token ตอนที่ตั้งค่ามาใส่
     
